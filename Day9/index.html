@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .highlight {
+            background-color: yellow;
+        }
+
+        #myElement {
+            width: 200px;
+            height: 100px;
+            border: 2px solid black;
+            text-align: center;
+            line-height: 100px;
+            margin: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="hello">Hello world</h1>
+    <button onclick="changeText()">CLICK HERE TO CHANGE</button>
+    <hr>
+
+    <div class="changeColor">HELLO JI KYA HAAL CHAAL ? </div>
+    <button onclick="changeColor()">Click Here</button>
+
+    <hr>
+
+    <button onclick="clickToAppend()">Click to append</button>
+
+    <hr>
+
+    <ul id="myList">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+    <button onclick="appendNewListItem()">Append New List Item</button>
+
+    <hr>
+
+    <div id="myList2">
+        <ul >
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+        <button onclick="remove()">Click to remove</button>
+    </div>
+
+    <hr>
+
+    <ul id="myList3">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+    <button onclick="removeLast()">remove last element</button>
+    <hr>
+
+    <img id="myImg" src="https://images.pexels.com/photos/45853/grey-crowned-crane-bird-crane-animal-45853.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+
+    <button  onclick="changeImg()">Click to change image</button>
+    
+    <hr>
+
+    <p id="myParagraph">This is a paragraph.</p>
+    <button onclick="addClass()">Add Class</button>
+    <button onclick="removeClass()">Remove Class</button>
+
+    <hr>
+
+    <p id="para">HI this is your work space.</p>
+    <button onclick="changePara()"> change paragraph</button>
+
+    <hr>
+
+    <div id="myElement">Hover over me!</div>
+
+    <script src="Script.js"></script>
+</body>
+</html>
