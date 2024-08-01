@@ -234,7 +234,6 @@ console.log( TreeNodeOne )
 // Task 8: Implement a BinaryTree class with method for inserting values and performing in-order traversal to display nodes.
 
 
-
 class BinaryTree {
 
     constructor() {
@@ -290,3 +289,5 @@ tree.insert( 27 );
 
 
 tree.inOrder( tree.root );
+
+
